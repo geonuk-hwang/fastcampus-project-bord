@@ -1,9 +1,9 @@
 package com.fastcampus.projectbord.repository;
 
-import com.fastcampus.projectbord.domain.Article;
+import com.fastcampus.projectbord.domain.ArticleComment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 @RepositoryRestResource
-public interface ArticleRepository extends JpaRepository<Article, Long> {
+public interface ArticleCommentRepository extends JpaRepository<ArticleComment, Long> {
 }
